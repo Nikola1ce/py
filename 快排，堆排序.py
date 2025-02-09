@@ -35,7 +35,6 @@ def heapsort(arr):
         arr[i],arr[0]=arr[0],arr[i]
         down(arr,i,0)
 
-print(arr) 
 heapsort(arr)
 print(arr)     
     
